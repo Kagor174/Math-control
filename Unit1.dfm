@@ -1,0 +1,372 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = #1042#1099#1073#1086#1088#1086#1095#1085#1099#1081' '#1082#1086#1085#1090#1088#1086#1083#1100' '#1085#1077#1096#1090#1091#1095#1085#1086#1081' '#1087#1088#1086#1076#1091#1082#1094#1080#1080
+  ClientHeight = 551
+  ClientWidth = 647
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 17
+  object Label3: TLabel
+    Left = 8
+    Top = 0
+    Width = 220
+    Height = 30
+    Caption = #1058#1088#1077#1073#1091#1077#1090#1089#1103' '#1086#1087#1088#1077#1076#1077#1083#1080#1090#1100':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LabelM_all: TLabel
+    Left = 8
+    Top = 168
+    Width = 139
+    Height = 17
+    Caption = #1054#1073#1097#1072#1103' '#1084#1072#1089#1089#1072' '#1087#1072#1088#1090#1080#1080', '#1090
+  end
+  object LabelO: TLabel
+    Left = 294
+    Top = 184
+    Width = 214
+    Height = 34
+    Caption = #1057#1088#1077#1076#1085#1077#1077' '#1082#1074#1072#1076#1088#1072#1090#1080#1095#1077#1089#1082#1086#1077' '#1086#1090#1082#1083#1086#1085#1077#1085#1080#1077' '#1084#1072#1089#1089#1099' '#1090#1086#1095#1077#1095#1085#1086#1081' '#1087#1088#1086#1073#1099
+    WordWrap = True
+  end
+  object LabelQ: TLabel
+    Left = 8
+    Top = 228
+    Width = 171
+    Height = 34
+    Caption = #1055#1088#1086#1080#1079#1074#1086#1076#1080#1090#1077#1083#1100#1085#1086#1089#1090#1100' '#1087#1086#1090#1086#1082#1072' '#1088#1091#1076#1099', '#1090'/'#1095
+    WordWrap = True
+  end
+  object LabelM_5: TLabel
+    Left = 8
+    Top = 280
+    Width = 172
+    Height = 51
+    Caption = #1052#1072#1089#1089#1072' '#1088#1091#1076#1099', '#1087#1077#1088#1077#1084#1077#1097#1072#1077#1084#1072#1103' '#1079#1072' '#1086#1076#1080#1085' '#1094#1080#1082#1083' '#1087#1086#1075#1088#1091#1079#1086#1095#1085#1086#1075#1086' '#1084#1077#1093#1072#1085#1080#1079#1084#1072', '#1090
+    WordWrap = True
+  end
+  object LabelR_: TLabel
+    Left = 326
+    Top = 240
+    Width = 181
+    Height = 34
+    Caption = #1057#1088#1077#1076#1085#1077#1077' '#1079#1085#1072#1095#1077#1085#1080#1077' '#1076#1080#1072#1087#1072#1079#1086#1085#1072' '#1087#1072#1088#1085#1099#1093' '#1086#1087#1088#1077#1076#1077#1083#1077#1085#1080#1081',%'
+    WordWrap = True
+  end
+  object LabelX_: TLabel
+    Left = 326
+    Top = 280
+    Width = 155
+    Height = 34
+    Caption = #1057#1088#1077#1076#1085#1077#1077' '#1079#1085#1072#1095#1077#1085#1080#1077' '#1084#1072#1089#1089#1099' '#1090#1086#1095#1077#1095#1085#1086#1081' '#1087#1088#1086#1073#1099', '#1082#1075
+    WordWrap = True
+  end
+  object LabelKvl: TLabel
+    Left = 8
+    Top = 368
+    Width = 379
+    Height = 17
+    Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1095#1072#1089#1090#1077#1081' '#1087#1088#1086#1073#1099' '#1076#1083#1103' '#1086#1087#1088#1077#1076#1077#1083#1077#1085#1080#1103' '#1089#1086#1076#1077#1088#1078#1072#1085#1080#1103' '#1074#1083#1072#1075#1080
+  end
+  object LabelK: TLabel
+    Left = 8
+    Top = 399
+    Width = 275
+    Height = 17
+    Caption = #1063#1080#1089#1083#1086' '#1090#1086#1095#1077#1095#1085#1099#1093' '#1087#1088#1086#1073' '#1087#1088#1080' '#1074#1072#1088#1080#1072#1094#1080#1080' '#1082#1072#1095#1077#1089#1090#1074#1072
+  end
+  object LabelB_otb: TLabel
+    Left = 344
+    Top = 400
+    Width = 178
+    Height = 17
+    Caption = #1055#1086#1075#1088#1077#1096#1085#1086#1089#1090#1100' '#1086#1090#1073#1086#1088#1072' '#1087#1088#1086#1073',%'
+  end
+  object LabelN: TLabel
+    Left = 8
+    Top = 431
+    Width = 301
+    Height = 17
+    Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1095#1072#1089#1090#1077#1081' '#1087#1072#1088#1090#1080#1080' '#1087#1088#1080' '#1074#1072#1088#1080#1072#1094#1080#1080' '#1082#1072#1095#1077#1089#1090#1074#1072
+  end
+  object LabelC: TLabel
+    Left = 369
+    Top = 430
+    Width = 155
+    Height = 17
+    Caption = #1050#1086#1101#1092#1092#1080#1094#1080#1077#1085#1090' '#1074#1072#1088#1080#1072#1094#1080#1080',%'
+  end
+  object LabelT: TLabel
+    Left = 8
+    Top = 461
+    Width = 150
+    Height = 17
+    Caption = #1042#1088#1077#1084#1077#1085#1085#1099#1077' '#1080#1085#1090#1077#1088#1074#1072#1083#1099', '#1095
+  end
+  object LabelM_4: TLabel
+    Left = 344
+    Top = 461
+    Width = 164
+    Height = 17
+    Caption = #1048#1085#1090#1077#1088#1074#1072#1083' '#1085#1072' '#1086#1089#1085#1086#1074#1077' '#1084#1072#1089#1089#1099
+  end
+  object LabelR: TLabel
+    Left = 8
+    Top = 492
+    Width = 524
+    Height = 17
+    Caption = 
+      #1063#1080#1089#1083#1086' '#1088#1072#1073#1086#1095#1080#1093' '#1094#1080#1082#1083#1086#1074' '#1087#1086#1075#1088#1091#1079#1086#1095#1085#1086#1075#1086' '#1084#1077#1093#1072#1085#1080#1079#1084#1072', '#1086#1087#1088#1077#1076#1077#1083#1103#1102#1097#1077#1077' '#1087#1077#1088#1090#1086#1076 +
+      ' '#1086#1090#1073#1086#1088#1072' '#1087#1088#1086#1073
+  end
+  object LabelVar: TLabel
+    Left = 447
+    Top = 368
+    Width = 113
+    Height = 17
+    Caption = #1042#1072#1088#1080#1072#1094#1080#1103' '#1082#1072#1095#1077#1089#1090#1074#1072
+  end
+  object ButtonInKonv: TButton
+    Left = 192
+    Top = 105
+    Width = 107
+    Height = 40
+    Caption = #1050#1086#1085#1074#1077#1081#1077#1088#1086#1084
+    TabOrder = 0
+    Visible = False
+    OnClick = ButtonInKonvClick
+  end
+  object ButtonInPoverh: TButton
+    Left = 305
+    Top = 105
+    Width = 107
+    Height = 40
+    Caption = #1057' '#1087#1086#1074#1077#1088#1093#1085#1086#1089#1090#1080
+    TabOrder = 1
+    Visible = False
+    OnClick = ButtonInPoverhClick
+  end
+  object ButtonInManual: TButton
+    Left = 418
+    Top = 105
+    Width = 107
+    Height = 40
+    Caption = #1052#1072#1085#1091#1072#1083#1100#1085#1099#1081' '#1086#1090#1073#1086#1088
+    TabOrder = 2
+    Visible = False
+    WordWrap = True
+    OnClick = ButtonInManualClick
+  end
+  object ButtonInVruch: TButton
+    Left = 531
+    Top = 105
+    Width = 107
+    Height = 40
+    Caption = #1042#1088#1091#1095#1085#1091#1102
+    TabOrder = 3
+    Visible = False
+    OnClick = ButtonInVruchClick
+  end
+  object CheckBoxKvl: TCheckBox
+    Left = 8
+    Top = 36
+    Width = 425
+    Height = 17
+    Caption = #1056#1072#1089#1087#1088#1077#1076#1077#1083#1077#1085#1080#1077' '#1095#1072#1089#1090#1077#1081' '#1087#1088#1086#1073#1099' '#1076#1083#1103' '#1086#1087#1088#1077#1076#1077#1083#1077#1085#1080#1103' '#1089#1086#1076#1077#1088#1078#1072#1085#1080#1103' '#1074#1083#1072#1075#1080
+    Checked = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 4
+    OnClick = CheckBoxKvlClick
+  end
+  object CheckBoxR: TCheckBox
+    Left = 8
+    Top = 72
+    Width = 161
+    Height = 17
+    Caption = #1055#1077#1088#1080#1086#1076#1099' '#1086#1090#1073#1086#1088#1072' '#1087#1088#1086#1073
+    Checked = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 5
+    OnClick = CheckBoxRClick
+  end
+  object CheckBoxMass: TCheckBox
+    Left = 8
+    Top = 105
+    Width = 161
+    Height = 17
+    Caption = #1052#1072#1089#1089#1072' '#1088#1072#1079#1086#1074#1086#1081' '#1087#1088#1086#1073#1099
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = CheckBoxMassClick
+  end
+  object CheckBoxC: TCheckBox
+    Left = 272
+    Top = 72
+    Width = 161
+    Height = 17
+    Caption = #1050#1086#1101#1092#1092#1080#1094#1080#1077#1085#1090' '#1074#1072#1088#1080#1072#1094#1080#1080
+    Checked = True
+    State = cbChecked
+    TabOrder = 7
+    OnClick = CheckBoxCClick
+  end
+  object m_all: TEdit
+    Left = 153
+    Top = 165
+    Width = 121
+    Height = 25
+    TabOrder = 8
+  end
+  object o: TEdit
+    Left = 517
+    Top = 192
+    Width = 121
+    Height = 25
+    TabOrder = 9
+  end
+  object CheckBoxO: TCheckBox
+    Left = 298
+    Top = 161
+    Width = 340
+    Height = 17
+    Caption = #1057#1088#1077#1076#1085#1077#1077' '#1082#1074#1072#1076#1088#1072#1090#1080#1095#1077#1089#1082#1086#1077' '#1086#1090#1082#1083#1086#1085#1077#1085#1080#1077' '#1085#1077' '#1086#1087#1088#1077#1076#1077#1083#1077#1085#1086
+    TabOrder = 10
+    OnClick = CheckBoxOClick
+  end
+  object Q: TEdit
+    Left = 187
+    Top = 225
+    Width = 121
+    Height = 25
+    TabOrder = 11
+  end
+  object m_5: TEdit
+    Left = 187
+    Top = 296
+    Width = 121
+    Height = 25
+    TabOrder = 12
+  end
+  object R_: TEdit
+    Left = 517
+    Top = 249
+    Width = 121
+    Height = 25
+    TabOrder = 13
+  end
+  object X_: TEdit
+    Left = 517
+    Top = 280
+    Width = 121
+    Height = 25
+    TabOrder = 14
+  end
+  object kvl: TEdit
+    Left = 393
+    Top = 365
+    Width = 48
+    Height = 25
+    ReadOnly = True
+    TabOrder = 15
+  end
+  object k: TEdit
+    Left = 290
+    Top = 396
+    Width = 48
+    Height = 25
+    ReadOnly = True
+    TabOrder = 16
+  end
+  object b_otb: TEdit
+    Left = 528
+    Top = 396
+    Width = 110
+    Height = 25
+    ReadOnly = True
+    TabOrder = 17
+  end
+  object n: TEdit
+    Left = 315
+    Top = 427
+    Width = 48
+    Height = 25
+    ReadOnly = True
+    TabOrder = 18
+  end
+  object Button1: TButton
+    Left = 254
+    Top = 334
+    Width = 163
+    Height = 25
+    Caption = #1042#1099#1089#1095#1080#1090#1072#1090#1100
+    TabOrder = 19
+    OnClick = Button1Click
+  end
+  object C: TEdit
+    Left = 528
+    Top = 427
+    Width = 111
+    Height = 25
+    ReadOnly = True
+    TabOrder = 20
+  end
+  object t: TEdit
+    Left = 172
+    Top = 458
+    Width = 111
+    Height = 25
+    ReadOnly = True
+    TabOrder = 21
+  end
+  object m_4: TEdit
+    Left = 528
+    Top = 458
+    Width = 111
+    Height = 25
+    ReadOnly = True
+    TabOrder = 22
+  end
+  object r: TEdit
+    Left = 545
+    Top = 489
+    Width = 94
+    Height = 25
+    ReadOnly = True
+    TabOrder = 23
+  end
+  object Var: TEdit
+    Left = 561
+    Top = 365
+    Width = 78
+    Height = 25
+    ReadOnly = True
+    TabOrder = 24
+  end
+end

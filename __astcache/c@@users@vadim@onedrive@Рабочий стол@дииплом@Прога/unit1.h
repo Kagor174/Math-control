@@ -1,0 +1,83 @@
+﻿//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Menus.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TMainMenu *Меню;
+	TMenuItem *N11;
+	TMenuItem *N12;
+	TMenuItem *N21;
+	TMenuItem *N121;
+	TMenuItem *N211;
+	TMenuItem *N1;
+	TMenuItem *N2;
+	TLabel *Label3;
+	TButton *ButtonInKonv;
+	TButton *ButtonInPoverh;
+	TButton *ButtonInManual;
+	TButton *ButtonInVruch;
+	TCheckBox *CheckBoxKvl;
+	TCheckBox *CheckBoxR;
+	TCheckBox *CheckBoxMass;
+	TCheckBox *CheckBoxC;
+	TEdit *m_all;
+	TLabel *LabelM_all;
+	TLabel *LabelO;
+	TEdit *o;
+	TCheckBox *CheckBoxO;
+	TLabel *LabelQ;
+	TLabel *LabelM_5;
+	TEdit *Q;
+	TEdit *m_5;
+	TLabel *LabelR_;
+	TLabel *LabelX_;
+	TEdit *R_;
+	TEdit *X_;
+	TLabel *LabelKvl;
+	TEdit *kvl;
+	TEdit *k;
+	TLabel *LabelK;
+	TLabel *LabelB_otb;
+	TEdit *b_otb;
+	TLabel *LabelN;
+	TEdit *n;
+	TButton *Button1;
+	TLabel *LabelC;
+	TEdit *C;
+	TLabel *LabelT;
+	TLabel *LabelM_4;
+	TEdit *t;
+	TEdit *m_4;
+	TLabel *LabelR;
+	TEdit *r;
+	TLabel *LabelVar;
+	TEdit *Var;
+
+	void __fastcall RadioButton4Click(TObject *Sender);
+	void __fastcall CheckBoxMassClick(TObject *Sender);
+	void __fastcall ButtonInKonvClick(TObject *Sender);
+	void __fastcall ButtonInManualClick(TObject *Sender);
+	void __fastcall ButtonInPoverhClick(TObject *Sender);
+	void __fastcall ButtonInVruchClick(TObject *Sender);
+	void __fastcall CheckBoxKvlClick(TObject *Sender);
+	void __fastcall CheckBoxRClick(TObject *Sender);
+	void __fastcall CheckBoxCClick(TObject *Sender);
+	void __fastcall CheckBoxOClick(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
